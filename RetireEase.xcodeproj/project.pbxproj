@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE94D342BDA0D1E00A60587 /* RetireEaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D332BDA0D1E00A60587 /* RetireEaseApp.swift */; };
+		BEE94D362BDA0D1E00A60587 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D352BDA0D1E00A60587 /* Profile.swift */; };
+		BEE94D382BDA0D1F00A60587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE94D372BDA0D1F00A60587 /* Assets.xcassets */; };
+		BEE94D3B2BDA0D1F00A60587 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE94D3A2BDA0D1F00A60587 /* Preview Assets.xcassets */; };
+		BEE94D452BDA0D1F00A60587 /* RetireEaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D442BDA0D1F00A60587 /* RetireEaseTests.swift */; };
+		BEE94D4F2BDA0D1F00A60587 /* RetireEaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D4E2BDA0D1F00A60587 /* RetireEaseUITests.swift */; };
+		BEE94D512BDA0D1F00A60587 /* RetireEaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D502BDA0D1F00A60587 /* RetireEaseUITestsLaunchTests.swift */; };
+		BEE94D782BDB5C3E00A60587 /* Boarding Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D772BDB5C3E00A60587 /* Boarding Page.swift */; };
+		BEE94D982BDF5D9200A60587 /* Plan Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D972BDF5D9200A60587 /* Plan Summary.swift */; };
+		BEE94D9C2BE09A8200A60587 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE94D9B2BE09A8200A60587 /* ExampleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEE94D412BDA0D1F00A60587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE94D282BDA0D1E00A60587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE94D2F2BDA0D1E00A60587;
+			remoteInfo = RetireEase;
+		};
+		BEE94D4B2BDA0D1F00A60587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE94D282BDA0D1E00A60587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE94D2F2BDA0D1E00A60587;
+			remoteInfo = RetireEase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEE94D302BDA0D1E00A60587 /* RetireEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetireEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE94D332BDA0D1E00A60587 /* RetireEaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetireEaseApp.swift; sourceTree = "<group>"; };
+		BEE94D352BDA0D1E00A60587 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BEE94D372BDA0D1F00A60587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE94D3A2BDA0D1F00A60587 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEE94D402BDA0D1F00A60587 /* RetireEaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetireEaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE94D442BDA0D1F00A60587 /* RetireEaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetireEaseTests.swift; sourceTree = "<group>"; };
+		BEE94D4A2BDA0D1F00A60587 /* RetireEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetireEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE94D4E2BDA0D1F00A60587 /* RetireEaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetireEaseUITests.swift; sourceTree = "<group>"; };
+		BEE94D502BDA0D1F00A60587 /* RetireEaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetireEaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEE94D772BDB5C3E00A60587 /* Boarding Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boarding Page.swift"; sourceTree = "<group>"; };
+		BEE94D972BDF5D9200A60587 /* Plan Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plan Summary.swift"; sourceTree = SOURCE_ROOT; };
+		BEE94D9B2BE09A8200A60587 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE94D2D2BDA0D1E00A60587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D3D2BDA0D1F00A60587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D472BDA0D1F00A60587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE94D272BDA0D1E00A60587 = {
+			isa = PBXGroup;
+			children = (
+				BEE94D322BDA0D1E00A60587 /* RetireEase */,
+				BEE94D432BDA0D1F00A60587 /* RetireEaseTests */,
+				BEE94D4D2BDA0D1F00A60587 /* RetireEaseUITests */,
+				BEE94D312BDA0D1E00A60587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE94D312BDA0D1E00A60587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE94D302BDA0D1E00A60587 /* RetireEase.app */,
+				BEE94D402BDA0D1F00A60587 /* RetireEaseTests.xctest */,
+				BEE94D4A2BDA0D1F00A60587 /* RetireEaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE94D322BDA0D1E00A60587 /* RetireEase */ = {
+			isa = PBXGroup;
+			children = (
+				BEE94D332BDA0D1E00A60587 /* RetireEaseApp.swift */,
+				BEE94D772BDB5C3E00A60587 /* Boarding Page.swift */,
+				BEE94D972BDF5D9200A60587 /* Plan Summary.swift */,
+				BEE94D352BDA0D1E00A60587 /* Profile.swift */,
+				BEE94D9B2BE09A8200A60587 /* ExampleView.swift */,
+				BEE94D372BDA0D1F00A60587 /* Assets.xcassets */,
+				BEE94D392BDA0D1F00A60587 /* Preview Content */,
+			);
+			path = RetireEase;
+			sourceTree = "<group>";
+		};
+		BEE94D392BDA0D1F00A60587 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEE94D3A2BDA0D1F00A60587 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEE94D432BDA0D1F00A60587 /* RetireEaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE94D442BDA0D1F00A60587 /* RetireEaseTests.swift */,
+			);
+			path = RetireEaseTests;
+			sourceTree = "<group>";
+		};
+		BEE94D4D2BDA0D1F00A60587 /* RetireEaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE94D4E2BDA0D1F00A60587 /* RetireEaseUITests.swift */,
+				BEE94D502BDA0D1F00A60587 /* RetireEaseUITestsLaunchTests.swift */,
+			);
+			path = RetireEaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE94D2F2BDA0D1E00A60587 /* RetireEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE94D542BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEase" */;
+			buildPhases = (
+				BEE94D2C2BDA0D1E00A60587 /* Sources */,
+				BEE94D2D2BDA0D1E00A60587 /* Frameworks */,
+				BEE94D2E2BDA0D1E00A60587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetireEase;
+			productName = RetireEase;
+			productReference = BEE94D302BDA0D1E00A60587 /* RetireEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE94D3F2BDA0D1F00A60587 /* RetireEaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE94D572BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEaseTests" */;
+			buildPhases = (
+				BEE94D3C2BDA0D1F00A60587 /* Sources */,
+				BEE94D3D2BDA0D1F00A60587 /* Frameworks */,
+				BEE94D3E2BDA0D1F00A60587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE94D422BDA0D1F00A60587 /* PBXTargetDependency */,
+			);
+			name = RetireEaseTests;
+			productName = RetireEaseTests;
+			productReference = BEE94D402BDA0D1F00A60587 /* RetireEaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE94D492BDA0D1F00A60587 /* RetireEaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE94D5A2BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEaseUITests" */;
+			buildPhases = (
+				BEE94D462BDA0D1F00A60587 /* Sources */,
+				BEE94D472BDA0D1F00A60587 /* Frameworks */,
+				BEE94D482BDA0D1F00A60587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE94D4C2BDA0D1F00A60587 /* PBXTargetDependency */,
+			);
+			name = RetireEaseUITests;
+			productName = RetireEaseUITests;
+			productReference = BEE94D4A2BDA0D1F00A60587 /* RetireEaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE94D282BDA0D1E00A60587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BEE94D2F2BDA0D1E00A60587 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BEE94D3F2BDA0D1F00A60587 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BEE94D2F2BDA0D1E00A60587;
+					};
+					BEE94D492BDA0D1F00A60587 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BEE94D2F2BDA0D1E00A60587;
+					};
+				};
+			};
+			buildConfigurationList = BEE94D2B2BDA0D1E00A60587 /* Build configuration list for PBXProject "RetireEase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE94D272BDA0D1E00A60587;
+			productRefGroup = BEE94D312BDA0D1E00A60587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE94D2F2BDA0D1E00A60587 /* RetireEase */,
+				BEE94D3F2BDA0D1F00A60587 /* RetireEaseTests */,
+				BEE94D492BDA0D1F00A60587 /* RetireEaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE94D2E2BDA0D1E00A60587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE94D3B2BDA0D1F00A60587 /* Preview Assets.xcassets in Resources */,
+				BEE94D382BDA0D1F00A60587 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D3E2BDA0D1F00A60587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D482BDA0D1F00A60587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE94D2C2BDA0D1E00A60587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE94D362BDA0D1E00A60587 /* Profile.swift in Sources */,
+				BEE94D342BDA0D1E00A60587 /* RetireEaseApp.swift in Sources */,
+				BEE94D982BDF5D9200A60587 /* Plan Summary.swift in Sources */,
+				BEE94D782BDB5C3E00A60587 /* Boarding Page.swift in Sources */,
+				BEE94D9C2BE09A8200A60587 /* ExampleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D3C2BDA0D1F00A60587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE94D452BDA0D1F00A60587 /* RetireEaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE94D462BDA0D1F00A60587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE94D4F2BDA0D1F00A60587 /* RetireEaseUITests.swift in Sources */,
+				BEE94D512BDA0D1F00A60587 /* RetireEaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEE94D422BDA0D1F00A60587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE94D2F2BDA0D1E00A60587 /* RetireEase */;
+			targetProxy = BEE94D412BDA0D1F00A60587 /* PBXContainerItemProxy */;
+		};
+		BEE94D4C2BDA0D1F00A60587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE94D2F2BDA0D1E00A60587 /* RetireEase */;
+			targetProxy = BEE94D4B2BDA0D1F00A60587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEE94D522BDA0D1F00A60587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEE94D532BDA0D1F00A60587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE94D552BDA0D1F00A60587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetireEase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE94D562BDA0D1F00A60587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetireEase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEE94D582BDA0D1F00A60587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetireEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetireEase";
+			};
+			name = Debug;
+		};
+		BEE94D592BDA0D1F00A60587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetireEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetireEase";
+			};
+			name = Release;
+		};
+		BEE94D5B2BDA0D1F00A60587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetireEase;
+			};
+			name = Debug;
+		};
+		BEE94D5C2BDA0D1F00A60587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NanoChallenge-1.RetireEaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetireEase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE94D2B2BDA0D1E00A60587 /* Build configuration list for PBXProject "RetireEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE94D522BDA0D1F00A60587 /* Debug */,
+				BEE94D532BDA0D1F00A60587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE94D542BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE94D552BDA0D1F00A60587 /* Debug */,
+				BEE94D562BDA0D1F00A60587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE94D572BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE94D582BDA0D1F00A60587 /* Debug */,
+				BEE94D592BDA0D1F00A60587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE94D5A2BDA0D1F00A60587 /* Build configuration list for PBXNativeTarget "RetireEaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE94D5B2BDA0D1F00A60587 /* Debug */,
+				BEE94D5C2BDA0D1F00A60587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE94D282BDA0D1E00A60587 /* Project object */;
+}
